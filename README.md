@@ -1,3 +1,6 @@
+![](./public/screenshot__desktop.png)
+![](./public//screenshot_mobile.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
