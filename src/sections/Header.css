@@ -1,0 +1,43 @@
+.header__top {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(65, 82, 126, 1) 15%,
+    rgba(65, 82, 126, 1) 30%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  animation-delay: 1s;
+  transition: 0.35s ease-in-out;
+}
+
+.header__details {
+  position: relative;
+}
+
+.header__details::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.0625rem;
+  background: white;
+  transition: 0.5s ease-in-out;
+}
+
+.header__details:hover::after {
+  height: 0.125rem;
+}
+
+.header__menu {
+  backdrop-filter: blur(1.25rem) brightness(90%);
+}
+
+.header__links {
+  transition: 0.25s ease-in-out;
+}
+
+.header__links.show {
+  display: flex;
+  color: black !important;
+}

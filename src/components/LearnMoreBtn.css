@@ -1,0 +1,22 @@
+.learnMore {
+  position: relative;
+  height: 3.125rem;
+}
+
+.learnMore::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  font-weight: bold;
+}
+
+.learnMore::after {
+  content: "Learn More";
+  color: white;
+}

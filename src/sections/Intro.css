@@ -1,0 +1,25 @@
+.intro {
+  transition: 0.25s ease-in-out;
+}
+
+.intro__info {
+  transition: 0.25s ease-in-out;
+}
+
+.intro__title {
+  animation-duration: 2s;
+}
+
+.intro__price {
+  animation-duration: 2.5s;
+}
+
+.intro__savings {
+  animation-duration: 2.5s;
+}
+
+@media screen and (max-height: 43.75rem) {
+  .intro__info {
+    padding-top: 3.125rem;
+  }
+}
