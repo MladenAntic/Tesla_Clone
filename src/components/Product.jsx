@@ -74,7 +74,7 @@ const Product = ({ background, title, price, tax, initialPrice }) => {
   return (
     <section
       ref={productSection}
-      className="product h-[100vh] flex items-center justify-center snap-start snap-always scroll-mt-[3.125rem]"
+      className="product h-[100vh] flex items-center justify-center snap-start snap-always scroll-mt-[3.125rem] max-md:w-full"
     >
       <main
         ref={content}

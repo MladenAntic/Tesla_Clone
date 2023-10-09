@@ -62,7 +62,7 @@ const ExperienceTesla = () => {
   return (
     <section
       ref={experienceTeslaSection}
-      className="h-[100vh] flex items-center justify-center relative snap-start snap-always scroll-mt-[3.125rem]"
+      className="h-[100vh] flex items-center justify-center relative snap-start snap-always scroll-mt-[3.125rem] max-md:w-full max-md:h-full"
     >
       <video
         className="absolute top-0 left-0 bottom-0 right-0 z-[-10] w-full h-full object-cover"

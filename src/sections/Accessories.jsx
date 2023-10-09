@@ -67,7 +67,7 @@ const Accessories = () => {
   return (
     <section
       ref={accessoriesBgRef}
-      className="h-[100vh] flex items-center justify-center z-[-10] snap-start snap-always scroll-mt-[3.125rem]"
+      className="h-[100vh] flex items-center justify-center z-[-10] snap-start snap-always scroll-mt-[3.125rem] max-md:w-full max-md:h-full"
     >
       <main
         ref={content}
