@@ -28,7 +28,7 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div>
       <context.Provider
         value={{
           menu,

@@ -69,7 +69,7 @@ const SolarRoof = () => {
   return (
     <section
       ref={solarRoofBgRef}
-      className="h-[100vh] flex items-center justify-center z-[-10] snap-start snap-always scroll-mt-[3.125rem] max-md:w-full max-md:h-full"
+      className="h-[100vh] flex items-center justify-center z-[-10] snap-start snap-always scroll-mt-[3.125rem] overflow-hidden"
     >
       <main
         ref={content}

@@ -145,7 +145,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 w-full z-[10]">
       <section
         ref={headerTopRef}
-        className="header__top animate__animated animate__slideInDown text-white text-center py-[0.9375rem]"
+        className="header__top animate__animated animate__slideInDown text-white text-center py-[0.9375rem] overflow-hidden"
       >
         <p className="inline-block text-[1rem] text-center tracking-wide max-sm:text-[0.75rem]">
           <span className="inline-block text-[1.125rem] font-bold tracking-wide mr-[1.25rem]">
