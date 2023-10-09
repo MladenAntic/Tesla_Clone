@@ -62,7 +62,7 @@ const Intro = () => {
   return (
     <section
       ref={introSection}
-      className="intro h-[100vh] flex items-center justify-center snap-start snap-alwaysww"
+      className="intro h-[100vh] flex items-center justify-center snap-start snap-always"
     >
       <video
         className="absolute top-0 left-0 bottom-0 right-0 w-full h-full object-cover"
